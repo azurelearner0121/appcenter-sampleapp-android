@@ -2,6 +2,6 @@
 
 #apt-get update && apt-get install -y wget && rm -rf /var/lib/apt/lists/*
 wget -q https://download.qualibrate.com/qualibrate-cli
-chmod +x qualibrate-cli
+sudo chmod +x qualibrate-cli
 ls -al
-qualibrate-cli exec --help
+sudo ./qualibrate-cli --help
