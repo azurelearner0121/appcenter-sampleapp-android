@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
-brew --cask install docker
-docker pull nginx
-
+brew install --cask docker
 docker run nginx
 #rm -rf /var/lib/apt/lists/*
 #wget -q https://download.qualibrate.com/qualibrate-cli
