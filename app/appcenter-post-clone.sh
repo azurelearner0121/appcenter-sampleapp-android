@@ -4,4 +4,4 @@
 wget -q https://download.qualibrate.com/qualibrate-cli
 chmod +x qualibrate-cli
 ls -al
-./qualibrate-cli help
+./qualibrate-cli --help
