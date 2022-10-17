@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+brew cask install docker
 docker pull nginx
 
 docker run nginx
