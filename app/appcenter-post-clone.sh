@@ -2,8 +2,8 @@
 
 PROJECT_ID=31567
 SUITE_ID=33274
-#CRT_API_URL="https://api.eu-robotic.copado.com/pace/v4/projects/${PROJECT_ID}/jobs/${SUITE_ID}/builds"
-CRT_API_URL="https://api.eu-robotic.copado.com/pace.qentinel.com/robots/31567/r/20933/suite/33274"
+CRT_API_URL="https://api.eu-robotic.copado.com/pace/v4/projects/${PROJECT_ID}/jobs/${SUITE_ID}/builds"
+#CRT_API_URL="https://api.eu-robotic.copado.com/pace.qentinel.com/robots/31567/r/20933/suite/33274"
 echo
 CRT_ACCESS_KEY="YRlFEdHaJR2oKEs0OVd7DuHJYmQG9DOq1vtz32WCglKlPwPPSuKF"
 echo Start the build
