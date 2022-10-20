@@ -7,6 +7,7 @@ CRT_API_URL="https://api.eu-robotic.copado.com/pace.qentinel.com/robots/31567/r/
 echo
 CRT_ACCESS_KEY="YRlFEdHaJR2oKEs0OVd7DuHJYmQG9DOq1vtz32WCglKlPwPPSuKF"
 echo Start the build
+curl -v "${CRT_API_URL}"
 BUILD=$(curl -sS -H 'X-Authorization: '"${CRT_ACCESS_KEY}"'' -d '{"inputParameters": [{"key": "BROWSER", "value": "firefox"}]}' -H "Content-Type: application/json" -X POST ${CRT_API_URL})
 echo "${BUILD}"
 BUILD_ID=$(echo "${BUILD}" | grep -Po '"id":\K[0-9]+')
