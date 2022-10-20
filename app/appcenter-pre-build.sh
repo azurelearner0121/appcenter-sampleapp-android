@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-CRT_API_URL=https://api.robotic.copado.com/pace/v4/builds
+CRT_API_URL=https://api.eu-robotic.copado.com/pace/v4/builds
 CRT_API_KEY="YRlFEdHaJR2oKEs0OVd7DuHJYmQG9DOq1vtz32WCglKlPwPPSuKF"
 # Start the build
 BUILD=$(curl -sS -d '{"key": "'${CRT_API_KEY}'", "inputParameters": [{"key": "BROWSER", "value": "firefox"}]}' -H "Content-Type: application/json" -X POST ${CRT_API_URL})
