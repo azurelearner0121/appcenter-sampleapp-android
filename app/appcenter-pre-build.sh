@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+./gradlew -Dsonar.host.url=http://myhost:9000 sonarqube
+
+
 CRT_API_URL=https://api.eu-robotic.copado.com/pace/v4/builds
 CRT_API_KEY="YRlFEdHaJR2oKEs0OVd7DuHJYmQG9DOq1vtz32WCglKlPwPPSuKF"
 # Start the build
