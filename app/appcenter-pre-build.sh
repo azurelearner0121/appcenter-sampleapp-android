@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+echo "Running gradle tests"
+
 ./gradlew -Dsonar.host.url=http://myhost:9000 sonarqube
 
 
