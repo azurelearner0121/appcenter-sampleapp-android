@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-echo "Running gradle tests"
+#echo "Running gradle tests"
 
-./gradlew -Dsonar.host.url=http://myhost:9000 sonarqube
+#gradlew -Dsonar.host.url=http://myhost:9000 sonarqube
 
 
 #CRT_API_URL=https://api.eu-robotic.copado.com/pace/v4/builds
